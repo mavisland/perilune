@@ -1,0 +1,679 @@
+{
+  "icons": [
+    {
+      "key": "add",
+      "name": "Add",
+      "tags": "analysis, investigation, search, study, test, brain"
+    },
+    {
+      "key": "add-to-artifact",
+      "name": "Add to artifact",
+      "tags": "annotate, pen, modify"
+    },
+    {
+      "key": "archive",
+      "name": "Archive",
+      "tags": "arrow, circle, up, transfer"
+    },
+    {
+      "key": "automatic-updates",
+      "name": "Automatic updates",
+      "tags": "arrow, down, importing,"
+    },
+    {
+      "key": "ban-circle",
+      "name": "Ban circle",
+      "tags": "arrow, leave"
+    },
+    {
+      "key": "bookmark",
+      "name": "Bookmark",
+      "tags": "arrow, sign in"
+    },
+    {
+      "key": "bring-data",
+      "name": "Bring in data",
+      "tags": "arrow, up, exporting"
+    },
+    {
+      "key": "build",
+      "name": "Build",
+      "tags": "arrows, decrease, smaller"
+    },
+    {
+      "key": "changes",
+      "name": "Changes",
+      "tags": "arrows, derive"
+    },
+    {
+      "key": "chat",
+      "name": "Chat",
+      "tags": "arrows, direction, exchange, network, swap, transfer, transaction"
+    },
+    {
+      "key": "circle",
+      "name": "Circle",
+      "tags": "arrows, direction, switch"
+    },
+    {
+      "key": "clean",
+      "name": "Clean",
+      "tags": "arrows, directions, position, location"
+    },
+    {
+      "key": "clipboard",
+      "name": "Clipboard",
+      "tags": "arrows, increase, bigger"
+    },
+    {
+      "key": "code",
+      "name": "Code",
+      "tags": "ascending, array, arrange"
+    },
+    {
+      "key": "comment",
+      "name": "Comment",
+      "tags": "ascending, array, arrange"
+    },
+    {
+      "key": "comparison",
+      "name": "Comparison",
+      "tags": "ascending, array, arrange"
+    },
+    {
+      "key": "confirm",
+      "name": "Confirm",
+      "tags": "attachments, add"
+    },
+    {
+      "key": "credit-card",
+      "name": "Credit card",
+      "tags": "back, cancel, reverse, revoke,"
+    },
+    {
+      "key": "cross",
+      "name": "Cross",
+      "tags": "bin, rubbish, junk, remove, delete"
+    },
+    {
+      "key": "cut",
+      "name": "Cut",
+      "tags": "bookmark, marker, holder, section, identifier, favorites"
+    },
+    {
+      "key": "delete",
+      "name": "Delete",
+      "tags": "case, court, deal, gavel"
+    },
+    {
+      "key": "derive-column",
+      "name": "Derive column",
+      "tags": "circle, arrow"
+    },
+    {
+      "key": "disable",
+      "name": "Disable",
+      "tags": "circle, arrow"
+    },
+    {
+      "key": "download",
+      "name": "Download",
+      "tags": "circle, arrow, down, downloading"
+    },
+    {
+      "key": "drag-handle-horizontal",
+      "name": "Drag handle: horizontal",
+      "tags": "circle, arrows, rotation"
+    },
+    {
+      "key": "drag-handle-vertical",
+      "name": "Drag handle: vertical",
+      "tags": "circle, arrows, tick, amends, updates"
+    },
+    {
+      "key": "draw",
+      "name": "Draw",
+      "tags": "circle, export, arrow"
+    },
+    {
+      "key": "duplicate",
+      "name": "Duplicate",
+      "tags": "circle, minus, symbol, remove"
+    },
+    {
+      "key": "edit",
+      "name": "Edit",
+      "tags": "circle, plus, symbol, join"
+    },
+    {
+      "key": "endorsed",
+      "name": "Endorsed",
+      "tags": "circle, refusal"
+    },
+    {
+      "key": "equals",
+      "name": "Equals",
+      "tags": "circle, remove, cross"
+    },
+    {
+      "key": "exchange",
+      "name": "Exchange",
+      "tags": "circle, remove, delete, clear, graph"
+    },
+    {
+      "key": "export",
+      "name": "Export",
+      "tags": "circle, rotate, share"
+    },
+    {
+      "key": "filter",
+      "name": "Filter",
+      "tags": "circle, tick, confirmation, acceptance, approval, authorization"
+    },
+    {
+      "key": "filter-keep",
+      "name": "Filter: keep",
+      "tags": "circles, combine, connect, add, part, slice"
+    },
+    {
+      "key": "filter-list",
+      "name": "Filter: list",
+      "tags": "circles, combine, connect, add, part, slice"
+    },
+    {
+      "key": "filter-open",
+      "name": "Filter: open",
+      "tags": "circles, combine, connect, add, part, slice"
+    },
+    {
+      "key": "filter-remove",
+      "name": "Filter: remove",
+      "tags": "circles, combine, cross"
+    },
+    {
+      "key": "fork",
+      "name": "Fork",
+      "tags": "circles, divide, split"
+    },
+    {
+      "key": "geosearch",
+      "name": "Geosearch",
+      "tags": "clipboard, notepad, notebook, copy, paste, transfer, storage"
+    },
+    {
+      "key": "git-branch",
+      "name": "Git: branch",
+      "tags": "code, markup, language, tag"
+    },
+    {
+      "key": "git-commit",
+      "name": "Git: commit",
+      "tags": "comparison, analogy, layout, contrast"
+    },
+    {
+      "key": "git-merge",
+      "name": "Git: merge",
+      "tags": "compress, compression, zip, bundle"
+    },
+    {
+      "key": "git-new-branch",
+      "name": "Git: new branch",
+      "tags": "compress, compression, zip, bundle, uncompress, unzip, unbundle"
+    },
+    {
+      "key": "git-pull",
+      "name": "Git: pull",
+      "tags": "copy, duplicate, add, data, bring"
+    },
+    {
+      "key": "git-push",
+      "name": "Git: push",
+      "tags": "copy, square, two"
+    },
+    {
+      "key": "git-repo",
+      "name": "Git: repo",
+      "tags": "correct, cleanse, clear, purify, stars"
+    },
+    {
+      "key": "graph-remove",
+      "name": "Greater than",
+      "tags": "create, add, plus, links"
+    },
+    {
+      "key": "greater-than",
+      "name": "Greater than or equal to",
+      "tags": "create, add, plus, objects, circle"
+    },
+    {
+      "key": "greater-than-or-equal-to",
+      "name": "Group objects",
+      "tags": "cross mark, fail, delete, no, close, remove"
+    },
+    {
+      "key": "group-objects",
+      "name": "Help",
+      "tags": "cross mark, fail, delete, no, close, remove"
+    },
+    {
+      "key": "help",
+      "name": "Highlight",
+      "tags": "divide, separate"
+    },
+    {
+      "key": "highlight",
+      "name": "History",
+      "tags": "divide, split, break, arrows, direction"
+    },
+    {
+      "key": "history",
+      "name": "Import",
+      "tags": "filtering, funnel, tube, pipe"
+    },
+    {
+      "key": "import",
+      "name": "Inheritance",
+      "tags": "filtering, funnel, tube, pipe"
+    },
+    {
+      "key": "inheritance",
+      "name": "Insert",
+      "tags": "filtering, funnel, tube, pipe"
+    },
+    {
+      "key": "inner-join",
+      "name": "Intersection",
+      "tags": "filtering, funnel, tube, pipe, delete, detach, discard, dismiss"
+    },
+    {
+      "key": "insert",
+      "name": "Join: inner",
+      "tags": "filtering, funnel, tube, pipe, retain, stay"
+    },
+    {
+      "key": "intersection",
+      "name": "Join: left",
+      "tags": "fit, scale, resize, adjust"
+    },
+    {
+      "key": "left-join",
+      "name": "Join: right",
+      "tags": "forward, push"
+    },
+    {
+      "key": "less-than",
+      "name": "Less than",
+      "tags": "github, repository, code, command"
+    },
+    {
+      "key": "less-than-or-equal-to",
+      "name": "Less than or equal to",
+      "tags": "github, repository, code, command"
+    },
+    {
+      "key": "locate",
+      "name": "Locate",
+      "tags": "github, repository, code, command"
+    },
+    {
+      "key": "lock",
+      "name": "Lock",
+      "tags": "github, repository, code, command"
+    },
+    {
+      "key": "log-in",
+      "name": "Login",
+      "tags": "github, repository, code, command"
+    },
+    {
+      "key": "log-out",
+      "name": "Logout",
+      "tags": "github, repository, code, command"
+    },
+    {
+      "key": "maximize",
+      "name": "Maximize",
+      "tags": "github, repository, code, command"
+    },
+    {
+      "key": "merge-links",
+      "name": "Merge into links",
+      "tags": "group, alignment, organization, arrangement, classification, objects"
+    },
+    {
+      "key": "minimize",
+      "name": "Minimize",
+      "tags": "hammer, tool"
+    },
+    {
+      "key": "minus",
+      "name": "Minus",
+      "tags": "inspection, exploration, magnifying glass"
+    },
+    {
+      "key": "move",
+      "name": "Move",
+      "tags": "language, convert"
+    },
+    {
+      "key": "new-link",
+      "name": "New link",
+      "tags": "layout, columns, switch, change, one"
+    },
+    {
+      "key": "new-object",
+      "name": "New object",
+      "tags": "layout, columns, switch, change, two"
+    },
+    {
+      "key": "new-text-box",
+      "name": "New text box",
+      "tags": "list, plus"
+    },
+    {
+      "key": "not-equal-to",
+      "name": "Not equal to",
+      "tags": "lock, engage, connect, join, close"
+    },
+    {
+      "key": "numbered-list",
+      "name": "Numbered list",
+      "tags": "magnifying glass, exploration"
+    },
+    {
+      "key": "numerical",
+      "name": "Numerical",
+      "tags": "map, magnifying glass, position, location"
+    },
+    {
+      "key": "one-column",
+      "name": "One column",
+      "tags": "map, position, safety pin, attach"
+    },
+    {
+      "key": "paperclip",
+      "name": "Paperclip",
+      "tags": "map, position, safety pin, detach"
+    },
+    {
+      "key": "path-search",
+      "name": "Path search",
+      "tags": "mark, sign, ok, approved, success"
+    },
+    {
+      "key": "percentage",
+      "name": "Percentage",
+      "tags": "mark, sign, ok, approved, success"
+    },
+    {
+      "key": "pin",
+      "name": "Pin",
+      "tags": "mark, sign, ok, approved, success"
+    },
+    {
+      "key": "pivot",
+      "name": "Pivot",
+      "tags": "mathematical, equations, expression, formula"
+    },
+    {
+      "key": "plus",
+      "name": "Plus",
+      "tags": "mathematical, equations, expression, formula"
+    },
+    {
+      "key": "predictive-analysis",
+      "name": "Predictive analysis",
+      "tags": "mathematical, equations, expression, formula"
+    },
+    {
+      "key": "print",
+      "name": "Print",
+      "tags": "mathematical, equations, expression, formula"
+    },
+    {
+      "key": "redo",
+      "name": "Redo",
+      "tags": "mathematical, equations, expression, formula"
+    },
+    {
+      "key": "refresh",
+      "name": "Refresh",
+      "tags": "mathematical, equations, expression, formula"
+    },
+    {
+      "key": "remove",
+      "name": "Remove",
+      "tags": "merge, combine, consolidate, jointment, links"
+    },
+    {
+      "key": "repeat",
+      "name": "Remove from graph",
+      "tags": "modulo, modulus"
+    },
+    {
+      "key": "reset",
+      "name": "Repeat",
+      "tags": "move, pull"
+    },
+    {
+      "key": "resolve",
+      "name": "Reset",
+      "tags": "move, pull"
+    },
+    {
+      "key": "right-join",
+      "name": "Resolve",
+      "tags": "numbers, order, sort, arrange, array"
+    },
+    {
+      "key": "search",
+      "name": "Search",
+      "tags": "off, circle, remove"
+    },
+    {
+      "key": "search-around",
+      "name": "Search around",
+      "tags": "order, list, array, arrange"
+    },
+    {
+      "key": "search-template",
+      "name": "Search template",
+      "tags": "order, list, array, arrange"
+    },
+    {
+      "key": "search-text",
+      "name": "Search text",
+      "tags": "order, list, array, arrange"
+    },
+    {
+      "key": "select",
+      "name": "Select",
+      "tags": "order, list, array, arrange"
+    },
+    {
+      "key": "selection",
+      "name": "Selection",
+      "tags": "order, list, array, arrange"
+    },
+    {
+      "key": "send-message",
+      "name": "Send message",
+      "tags": "past, reverse, circle, arrow"
+    },
+    {
+      "key": "send-to",
+      "name": "Send to",
+      "tags": "payment, bank, transaction"
+    },
+    {
+      "key": "send-to-graph",
+      "name": "Send to graph",
+      "tags": "printer, paper"
+    },
+    {
+      "key": "send-to-map",
+      "name": "Send to map",
+      "tags": "question mark, aid, advice, circle"
+    },
+    {
+      "key": "share",
+      "name": "Share",
+      "tags": "radial, empty, area, radius, selection"
+    },
+    {
+      "key": "signal-search",
+      "name": "Signal search",
+      "tags": "rotate, axis"
+    },
+    {
+      "key": "slash",
+      "name": "Slash",
+      "tags": "scissors"
+    },
+    {
+      "key": "small-cross",
+      "name": "Small cross",
+      "tags": "search, exploration, information, area, graph"
+    },
+    {
+      "key": "small-minus",
+      "name": "Small minus",
+      "tags": "search, exploration, topography, geography, location, area, magnifying glass, globe"
+    },
+    {
+      "key": "small-plus",
+      "name": "Small plus",
+      "tags": "search, magnifying glass, minus"
+    },
+    {
+      "key": "small-tick",
+      "name": "Small tick",
+      "tags": "search, magnifying glass, plus"
+    },
+    {
+      "key": "social-media",
+      "name": "Social media",
+      "tags": "search, text, magnifying glass"
+    },
+    {
+      "key": "sort",
+      "name": "Sort",
+      "tags": "select, text"
+    },
+    {
+      "key": "sort-alphabetical",
+      "name": "Sort: alphabetical",
+      "tags": "selection, area, highlight, sketch"
+    },
+    {
+      "key": "sort-alphabetical-desc",
+      "name": "Sort: alphabetical descending",
+      "tags": "selection, arrow, cursor, area, range"
+    },
+    {
+      "key": "sort-asc",
+      "name": "Sort: ascending",
+      "tags": "selection, collection, circle, ring"
+    },
+    {
+      "key": "sort-desc",
+      "name": "Sort: descending",
+      "tags": "send, deliver, paper-airplane, post"
+    },
+    {
+      "key": "sort-numerical",
+      "name": "Sort: numerical",
+      "tags": "share, square, arrow"
+    },
+    {
+      "key": "sort-numerical-desc",
+      "name": "Sort: numerical descending",
+      "tags": "sign, add, maximize, zoom in"
+    },
+    {
+      "key": "tag",
+      "name": "Tag",
+      "tags": "sign, add, maximize, zoom in"
+    },
+    {
+      "key": "take-action",
+      "name": "Take action",
+      "tags": "sign, remove, minimize, zoom out"
+    },
+    {
+      "key": "tick",
+      "name": "Tick",
+      "tags": "sign, remove, minimize, zoom out"
+    },
+    {
+      "key": "tick-circle",
+      "name": "Tick circle",
+      "tags": "signal, communication, radio, mast"
+    },
+    {
+      "key": "translate",
+      "name": "Translate",
+      "tags": "speech, conversation, communication, talk"
+    },
+    {
+      "key": "trash",
+      "name": "Trash",
+      "tags": "split, divide, disconnect, separate"
+    },
+    {
+      "key": "two-columns",
+      "name": "Two columns",
+      "tags": "split, divide, disconnect, separate"
+    },
+    {
+      "key": "unarchive",
+      "name": "Unarchive",
+      "tags": "square, plus, add, embed, include, inject"
+    },
+    {
+      "key": "undo",
+      "name": "Undo",
+      "tags": "statement, discussion, opinion, view"
+    },
+    {
+      "key": "ungroup-objects",
+      "name": "Ungroup objects",
+      "tags": "table, obtain, get, take, develop"
+    },
+    {
+      "key": "unlock",
+      "name": "Unlock",
+      "tags": "tag, label, badge, identification"
+    },
+    {
+      "key": "unpin",
+      "name": "Unpin",
+      "tags": "target, location, destination, mark, map, area"
+    },
+    {
+      "key": "unresolve",
+      "name": "Unresolve",
+      "tags": "text box, edit, new, create"
+    },
+    {
+      "key": "upload",
+      "name": "Upload",
+      "tags": "tick, mark, sign, ok, approved, success"
+    },
+    {
+      "key": "zoom-in",
+      "name": "Zoom in",
+      "tags": "transfer, move"
+    },
+    {
+      "key": "zoom-out",
+      "name": "Zoom out",
+      "tags": "transfer, move"
+    },
+    {
+      "key": "zoom-to-fit",
+      "name": "Zoom to fit",
+      "tags": "unlock, disengage, disconnect, separate, open"
+    }
+  ]
+}
