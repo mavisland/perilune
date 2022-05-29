@@ -13,9 +13,9 @@ module.exports = {
     },
   },
   templates: {
-    css: "./build/font/css.hbs",
-    scss: "./build/font/scss.hbs",
-    html: "./build/font/html.hbs",
+    css: "./templates/css.hbs",
+    scss: "./templates/scss.hbs",
+    html: "./templates/html.hbs",
   },
   pathOptions: {
     html: "./font/index.html",
