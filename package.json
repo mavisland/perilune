@@ -1,0 +1,9 @@
+{
+  "name": "perilune",
+  "version": "1.0.0",
+  "description": "Simply beautiful open source icons",
+  "main": "index.js",
+  "repository": "https://github.com/mavisland/perilune.git",
+  "author": "Tanju Yıldız <ben@tanjuyildiz.com>",
+  "license": "MIT"
+}
