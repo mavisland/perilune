@@ -1,0 +1,299 @@
+$iconfont-name: perilune !default;
+$iconfont-src: url("../fonts/perilune.woff2?cf296a504f95425d8624c0d573565c6b") format("woff2"),
+url("../fonts/perilune.woff?cf296a504f95425d8624c0d573565c6b") format("woff") !default;
+
+// Font Path
+@font-face {
+  font-family: $iconfont-name;
+  src: $iconfont-src;
+}
+
+// Core Styles
+.pl::before,
+[class^="pl-"]:before,
+[class*=" pl-"]:before {
+  display: inline-block;
+  font-family: $iconfont-name !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Variables
+$icon-var-add-to-artifact: "\f101";
+$icon-var-add: "\f102";
+$icon-var-archive: "\f103";
+$icon-var-automatic-updates: "\f104";
+$icon-var-ban-circle: "\f105";
+$icon-var-bookmark: "\f106";
+$icon-var-bring-data: "\f107";
+$icon-var-build: "\f108";
+$icon-var-changes: "\f109";
+$icon-var-chat: "\f10a";
+$icon-var-circle: "\f10b";
+$icon-var-clean: "\f10c";
+$icon-var-clipboard: "\f10d";
+$icon-var-code: "\f10e";
+$icon-var-comment: "\f10f";
+$icon-var-comparison: "\f110";
+$icon-var-confirm: "\f111";
+$icon-var-credit-card: "\f112";
+$icon-var-cross: "\f113";
+$icon-var-cut: "\f114";
+$icon-var-delete: "\f115";
+$icon-var-derive-column: "\f116";
+$icon-var-disable: "\f117";
+$icon-var-download: "\f118";
+$icon-var-drag-handle-horizontal: "\f119";
+$icon-var-drag-handle-vertical: "\f11a";
+$icon-var-draw: "\f11b";
+$icon-var-duplicate: "\f11c";
+$icon-var-edit: "\f11d";
+$icon-var-endorsed: "\f11e";
+$icon-var-equals: "\f11f";
+$icon-var-exchange: "\f120";
+$icon-var-export: "\f121";
+$icon-var-filter-keep: "\f122";
+$icon-var-filter-list: "\f123";
+$icon-var-filter-open: "\f124";
+$icon-var-filter-remove: "\f125";
+$icon-var-filter: "\f126";
+$icon-var-fork: "\f127";
+$icon-var-geosearch: "\f128";
+$icon-var-git-branch: "\f129";
+$icon-var-git-commit: "\f12a";
+$icon-var-git-merge: "\f12b";
+$icon-var-git-new-branch: "\f12c";
+$icon-var-git-pull: "\f12d";
+$icon-var-git-push: "\f12e";
+$icon-var-git-repo: "\f12f";
+$icon-var-graph-remove: "\f130";
+$icon-var-greater-than-or-equal-to: "\f131";
+$icon-var-greater-than: "\f132";
+$icon-var-group-objects: "\f133";
+$icon-var-help: "\f134";
+$icon-var-highlight: "\f135";
+$icon-var-history: "\f136";
+$icon-var-import: "\f137";
+$icon-var-inheritance: "\f138";
+$icon-var-inner-join: "\f139";
+$icon-var-insert: "\f13a";
+$icon-var-intersection: "\f13b";
+$icon-var-left-join: "\f13c";
+$icon-var-less-than-or-equal-to: "\f13d";
+$icon-var-less-than: "\f13e";
+$icon-var-locate: "\f13f";
+$icon-var-lock: "\f140";
+$icon-var-log-in: "\f141";
+$icon-var-log-out: "\f142";
+$icon-var-maximize: "\f143";
+$icon-var-merge-links: "\f144";
+$icon-var-minimize: "\f145";
+$icon-var-minus: "\f146";
+$icon-var-move: "\f147";
+$icon-var-new-link: "\f148";
+$icon-var-new-object: "\f149";
+$icon-var-new-text-box: "\f14a";
+$icon-var-not-equal-to: "\f14b";
+$icon-var-numbered-list: "\f14c";
+$icon-var-numerical: "\f14d";
+$icon-var-one-column: "\f14e";
+$icon-var-paperclip: "\f14f";
+$icon-var-path-search: "\f150";
+$icon-var-percentage: "\f151";
+$icon-var-pin: "\f152";
+$icon-var-pivot: "\f153";
+$icon-var-plus: "\f154";
+$icon-var-predictive-analysis: "\f155";
+$icon-var-print: "\f156";
+$icon-var-redo: "\f157";
+$icon-var-refresh: "\f158";
+$icon-var-remove: "\f159";
+$icon-var-repeat: "\f15a";
+$icon-var-reset: "\f15b";
+$icon-var-resolve: "\f15c";
+$icon-var-right-join: "\f15d";
+$icon-var-search-around: "\f15e";
+$icon-var-search-template: "\f15f";
+$icon-var-search-text: "\f160";
+$icon-var-search: "\f161";
+$icon-var-select: "\f162";
+$icon-var-selection: "\f163";
+$icon-var-send-message: "\f164";
+$icon-var-send-to-graph: "\f165";
+$icon-var-send-to-map: "\f166";
+$icon-var-send-to: "\f167";
+$icon-var-share: "\f168";
+$icon-var-signal-search: "\f169";
+$icon-var-slash: "\f16a";
+$icon-var-small-cross: "\f16b";
+$icon-var-small-minus: "\f16c";
+$icon-var-small-plus: "\f16d";
+$icon-var-small-tick: "\f16e";
+$icon-var-social-media: "\f16f";
+$icon-var-sort-alphabetical-desc: "\f170";
+$icon-var-sort-alphabetical: "\f171";
+$icon-var-sort-asc: "\f172";
+$icon-var-sort-desc: "\f173";
+$icon-var-sort-numerical-desc: "\f174";
+$icon-var-sort-numerical: "\f175";
+$icon-var-sort: "\f176";
+$icon-var-tag: "\f177";
+$icon-var-take-action: "\f178";
+$icon-var-tick-circle: "\f179";
+$icon-var-tick: "\f17a";
+$icon-var-translate: "\f17b";
+$icon-var-trash: "\f17c";
+$icon-var-two-columns: "\f17d";
+$icon-var-unarchive: "\f17e";
+$icon-var-undo: "\f17f";
+$icon-var-ungroup-objects: "\f180";
+$icon-var-unlock: "\f181";
+$icon-var-unpin: "\f182";
+$icon-var-unresolve: "\f183";
+$icon-var-upload: "\f184";
+$icon-var-zoom-in: "\f185";
+$icon-var-zoom-out: "\f186";
+$icon-var-zoom-to-fit: "\f187";
+
+// Icons
+.pl-add-to-artifact:before { content: $icon-var-add-to-artifact; }
+.pl-add:before { content: $icon-var-add; }
+.pl-archive:before { content: $icon-var-archive; }
+.pl-automatic-updates:before { content: $icon-var-automatic-updates; }
+.pl-ban-circle:before { content: $icon-var-ban-circle; }
+.pl-bookmark:before { content: $icon-var-bookmark; }
+.pl-bring-data:before { content: $icon-var-bring-data; }
+.pl-build:before { content: $icon-var-build; }
+.pl-changes:before { content: $icon-var-changes; }
+.pl-chat:before { content: $icon-var-chat; }
+.pl-circle:before { content: $icon-var-circle; }
+.pl-clean:before { content: $icon-var-clean; }
+.pl-clipboard:before { content: $icon-var-clipboard; }
+.pl-code:before { content: $icon-var-code; }
+.pl-comment:before { content: $icon-var-comment; }
+.pl-comparison:before { content: $icon-var-comparison; }
+.pl-confirm:before { content: $icon-var-confirm; }
+.pl-credit-card:before { content: $icon-var-credit-card; }
+.pl-cross:before { content: $icon-var-cross; }
+.pl-cut:before { content: $icon-var-cut; }
+.pl-delete:before { content: $icon-var-delete; }
+.pl-derive-column:before { content: $icon-var-derive-column; }
+.pl-disable:before { content: $icon-var-disable; }
+.pl-download:before { content: $icon-var-download; }
+.pl-drag-handle-horizontal:before { content: $icon-var-drag-handle-horizontal; }
+.pl-drag-handle-vertical:before { content: $icon-var-drag-handle-vertical; }
+.pl-draw:before { content: $icon-var-draw; }
+.pl-duplicate:before { content: $icon-var-duplicate; }
+.pl-edit:before { content: $icon-var-edit; }
+.pl-endorsed:before { content: $icon-var-endorsed; }
+.pl-equals:before { content: $icon-var-equals; }
+.pl-exchange:before { content: $icon-var-exchange; }
+.pl-export:before { content: $icon-var-export; }
+.pl-filter-keep:before { content: $icon-var-filter-keep; }
+.pl-filter-list:before { content: $icon-var-filter-list; }
+.pl-filter-open:before { content: $icon-var-filter-open; }
+.pl-filter-remove:before { content: $icon-var-filter-remove; }
+.pl-filter:before { content: $icon-var-filter; }
+.pl-fork:before { content: $icon-var-fork; }
+.pl-geosearch:before { content: $icon-var-geosearch; }
+.pl-git-branch:before { content: $icon-var-git-branch; }
+.pl-git-commit:before { content: $icon-var-git-commit; }
+.pl-git-merge:before { content: $icon-var-git-merge; }
+.pl-git-new-branch:before { content: $icon-var-git-new-branch; }
+.pl-git-pull:before { content: $icon-var-git-pull; }
+.pl-git-push:before { content: $icon-var-git-push; }
+.pl-git-repo:before { content: $icon-var-git-repo; }
+.pl-graph-remove:before { content: $icon-var-graph-remove; }
+.pl-greater-than-or-equal-to:before { content: $icon-var-greater-than-or-equal-to; }
+.pl-greater-than:before { content: $icon-var-greater-than; }
+.pl-group-objects:before { content: $icon-var-group-objects; }
+.pl-help:before { content: $icon-var-help; }
+.pl-highlight:before { content: $icon-var-highlight; }
+.pl-history:before { content: $icon-var-history; }
+.pl-import:before { content: $icon-var-import; }
+.pl-inheritance:before { content: $icon-var-inheritance; }
+.pl-inner-join:before { content: $icon-var-inner-join; }
+.pl-insert:before { content: $icon-var-insert; }
+.pl-intersection:before { content: $icon-var-intersection; }
+.pl-left-join:before { content: $icon-var-left-join; }
+.pl-less-than-or-equal-to:before { content: $icon-var-less-than-or-equal-to; }
+.pl-less-than:before { content: $icon-var-less-than; }
+.pl-locate:before { content: $icon-var-locate; }
+.pl-lock:before { content: $icon-var-lock; }
+.pl-log-in:before { content: $icon-var-log-in; }
+.pl-log-out:before { content: $icon-var-log-out; }
+.pl-maximize:before { content: $icon-var-maximize; }
+.pl-merge-links:before { content: $icon-var-merge-links; }
+.pl-minimize:before { content: $icon-var-minimize; }
+.pl-minus:before { content: $icon-var-minus; }
+.pl-move:before { content: $icon-var-move; }
+.pl-new-link:before { content: $icon-var-new-link; }
+.pl-new-object:before { content: $icon-var-new-object; }
+.pl-new-text-box:before { content: $icon-var-new-text-box; }
+.pl-not-equal-to:before { content: $icon-var-not-equal-to; }
+.pl-numbered-list:before { content: $icon-var-numbered-list; }
+.pl-numerical:before { content: $icon-var-numerical; }
+.pl-one-column:before { content: $icon-var-one-column; }
+.pl-paperclip:before { content: $icon-var-paperclip; }
+.pl-path-search:before { content: $icon-var-path-search; }
+.pl-percentage:before { content: $icon-var-percentage; }
+.pl-pin:before { content: $icon-var-pin; }
+.pl-pivot:before { content: $icon-var-pivot; }
+.pl-plus:before { content: $icon-var-plus; }
+.pl-predictive-analysis:before { content: $icon-var-predictive-analysis; }
+.pl-print:before { content: $icon-var-print; }
+.pl-redo:before { content: $icon-var-redo; }
+.pl-refresh:before { content: $icon-var-refresh; }
+.pl-remove:before { content: $icon-var-remove; }
+.pl-repeat:before { content: $icon-var-repeat; }
+.pl-reset:before { content: $icon-var-reset; }
+.pl-resolve:before { content: $icon-var-resolve; }
+.pl-right-join:before { content: $icon-var-right-join; }
+.pl-search-around:before { content: $icon-var-search-around; }
+.pl-search-template:before { content: $icon-var-search-template; }
+.pl-search-text:before { content: $icon-var-search-text; }
+.pl-search:before { content: $icon-var-search; }
+.pl-select:before { content: $icon-var-select; }
+.pl-selection:before { content: $icon-var-selection; }
+.pl-send-message:before { content: $icon-var-send-message; }
+.pl-send-to-graph:before { content: $icon-var-send-to-graph; }
+.pl-send-to-map:before { content: $icon-var-send-to-map; }
+.pl-send-to:before { content: $icon-var-send-to; }
+.pl-share:before { content: $icon-var-share; }
+.pl-signal-search:before { content: $icon-var-signal-search; }
+.pl-slash:before { content: $icon-var-slash; }
+.pl-small-cross:before { content: $icon-var-small-cross; }
+.pl-small-minus:before { content: $icon-var-small-minus; }
+.pl-small-plus:before { content: $icon-var-small-plus; }
+.pl-small-tick:before { content: $icon-var-small-tick; }
+.pl-social-media:before { content: $icon-var-social-media; }
+.pl-sort-alphabetical-desc:before { content: $icon-var-sort-alphabetical-desc; }
+.pl-sort-alphabetical:before { content: $icon-var-sort-alphabetical; }
+.pl-sort-asc:before { content: $icon-var-sort-asc; }
+.pl-sort-desc:before { content: $icon-var-sort-desc; }
+.pl-sort-numerical-desc:before { content: $icon-var-sort-numerical-desc; }
+.pl-sort-numerical:before { content: $icon-var-sort-numerical; }
+.pl-sort:before { content: $icon-var-sort; }
+.pl-tag:before { content: $icon-var-tag; }
+.pl-take-action:before { content: $icon-var-take-action; }
+.pl-tick-circle:before { content: $icon-var-tick-circle; }
+.pl-tick:before { content: $icon-var-tick; }
+.pl-translate:before { content: $icon-var-translate; }
+.pl-trash:before { content: $icon-var-trash; }
+.pl-two-columns:before { content: $icon-var-two-columns; }
+.pl-unarchive:before { content: $icon-var-unarchive; }
+.pl-undo:before { content: $icon-var-undo; }
+.pl-ungroup-objects:before { content: $icon-var-ungroup-objects; }
+.pl-unlock:before { content: $icon-var-unlock; }
+.pl-unpin:before { content: $icon-var-unpin; }
+.pl-unresolve:before { content: $icon-var-unresolve; }
+.pl-upload:before { content: $icon-var-upload; }
+.pl-zoom-in:before { content: $icon-var-zoom-in; }
+.pl-zoom-out:before { content: $icon-var-zoom-out; }
+.pl-zoom-to-fit:before { content: $icon-var-zoom-to-fit; }
