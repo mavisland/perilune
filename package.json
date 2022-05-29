@@ -6,6 +6,9 @@
   "repository": "https://github.com/mavisland/perilune.git",
   "author": "Tanju Yıldız <ben@tanjuyildiz.com>",
   "license": "MIT",
+  "scripts": {
+    "icons": "fantasticon"
+  },
   "devDependencies": {
     "fantasticon": "^1.2.3"
   }
