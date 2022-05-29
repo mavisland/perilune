@@ -12,4 +12,9 @@ module.exports = {
       indent: 2,
     },
   },
+  templates: {
+    css: "./build/font/css.hbs",
+    scss: "./build/font/scss.hbs",
+    html: "./build/font/html.hbs",
+  },
 };
